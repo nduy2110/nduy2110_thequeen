@@ -1,0 +1,96 @@
+/* PC */
+@media (min-width: 1024px) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+    
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .s-max-width {
+       width: 100%;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+    
+    #nav > div:first-child {
+        display: inline-block;
+    }
+
+    #nav > div {
+        float: none;
+        
+    }
+
+    #header .serch-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+       
+    }
+    
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+        color: black;
+    }
+
+    #nav .subnav {
+        width: 100%;
+    }
+
+    #nav .subnav div {
+        float: left;
+        width: calc(100%/3);
+        background-color: black;
+    }
+    
+    #nav .subnav div:hover a {
+        color: black;
+    }
+
+    #nav .subnav div a {
+        color: white;
+        
+    }
+
+    .s-col-full {
+        width: 100%!important;
+    }
+
+    .content-section .member-img {
+        width: 50%;
+    }
+
+   .contact-content .col {
+        margin-top: 16px;
+   }
+
+   .contact-content .contact-infor p{
+       line-height: 2;
+   }
+
+   
+}
+
+/*Table and Mobile */
+@media ( max-width: 1024px ) {
+    .padd-48 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
